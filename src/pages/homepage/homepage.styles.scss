@@ -1,0 +1,29 @@
+.homepage {
+    display: flex;
+    flex-direction: coloumn;
+    align-items: center;
+    background-color:'#f8f8f8';
+     
+  
+   
+    .text{
+      font-size: 20;
+      color: '#101010';
+      margin-top: 30;
+      margin-bottom: 30;
+      font-weight: '700';
+    }
+    .listItem{
+      margin-top: 10;
+      padding: 20;
+      align-items: 'center';
+      background-color: '#fff';
+      border-radius: 10;
+
+      }
+     
+    }
+   .listItemText{
+      font-size: 18;
+    }
+  
