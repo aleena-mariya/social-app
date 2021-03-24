@@ -14,7 +14,6 @@ const Header = ({ currentUser}) => (
     <Link className='logo-container' to='/'>
       <Logo className='logo' />
     </Link>
-    <text className='name'>SOCIAL APP</text>
     <div className='options'>
       {currentUser ? (
         <div className='option' onClick={() => auth.signOut()}>

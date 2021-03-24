@@ -32,8 +32,8 @@ class Homepage extends React.Component {
         {this.state.people.map(person => (
           <div key={person.name.first + person.name.last}>
             <div>{person.name.title}</div>
-            <div>{person.name.first}</div>
-            <div>{person.name.last}</div>
+            <div>{person.name.first}
+             {person.name.last}</div>
             <img src={person.picture.large} />
             <NavLink activeClassName="text"to ={"details/"+person}>Know More</NavLink>
           </div>

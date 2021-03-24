@@ -26,14 +26,14 @@ class Details extends React.Component {
     }
 
     return (
-      <div>
+      <div className='details'>
         
         {this.state.people.map(person => (
           <div key={person.name.first + person.name.last}>
-            <img src={person.picture.large} />
+            
             <div>{person.name.title}</div>
-            <div>{person.name.first}</div>
-            <div>{person.name.last}</div>
+            <div>{person.name.first}
+            {person.name.last}</div>
             <div>Gender:{person.gender}</div>
             <div>City:{person.location.city}</div>
             <div>State:{person.location.state}</div>
